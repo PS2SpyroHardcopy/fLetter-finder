@@ -11,7 +11,7 @@ fLetter = lowercaseName.charAt(0); // from the lowercase name get the first lett
 //resultsDiv.innerHTML =  fLetter;// print first letter
 	
 	for(var i= -1 ; fLetter != alphabet[i]; i++){
-		resultsDiv.innerHTML = i + 1;
+		resultsDiv.innerHTML = i + 2;
 	}
 	
 }
